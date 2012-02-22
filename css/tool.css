@@ -1,0 +1,45 @@
+
+
+/* get rid of those system borders being generated for A tags */
+a:active {
+  outline:none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
+
+
+
+.re {
+margin-top:5px;
+margin-left:120px;
+width:600px
+}	
+/* trigger button */
+
+/* tooltip styling */
+.tooltip {
+	display:none;
+	background:url(arrow2.png);
+	height:175px;
+	padding:22px 30px 10px 30px;
+	width:430px;
+	font-size:11px;
+	color:#fff;
+	background-repeat:no-repeat;
+
+
+}
+ 
+/* a .label element inside tooltip */
+.tooltip .label {
+	color:yellow;
+	width:35px;
+}
+ 
+.tooltip a {
+	color:#ad4;
+	font-size:11px;
+	font-weight:bold;
+}
